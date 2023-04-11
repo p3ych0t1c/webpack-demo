@@ -7,7 +7,6 @@
     "dev": "webpack serve --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.dev.js",
     "build:prod": "webpack --config config/webpack.prod.js",
-    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -26,7 +25,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.7.3",
-    "electron": "^23.2.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.5",
     "postcss-loader": "^7.1.0",
@@ -34,8 +32,5 @@
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
-  },
-  "dependencies": {
-    "express-http-proxy": "^1.6.3"
   }
 }
