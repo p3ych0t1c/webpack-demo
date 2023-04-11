@@ -1,0 +1,6 @@
+span {
+  display: inline-block;
+  background: blue;
+  transform: rotate(45deg);
+  transition: transform 1s;
+}
